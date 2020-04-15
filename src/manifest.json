@@ -1,0 +1,16 @@
+{
+  "name": "first_extension",
+  "version": "1.0.9",
+  "manifest_version": 2,
+  "description": "my first chrome extension",
+  "content_scripts": [
+    {
+      "matches": ["https://docs.djangoproject.com/*"],
+      "js": ["django.js"]
+    },
+    {
+      "matches": ["*://*/*"],
+      "js": ["removeads.js"]
+    }
+  ]
+}
