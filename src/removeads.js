@@ -1,5 +1,6 @@
 window.onload = function () {
-  var query = ".google-auto-placed, .ap_container, .adsbygoogle";
+  var query =
+    '.ap_container, [class*="ads"], [class*="google"], [class*="Ads"], [class*="-ad"], [class*="-Ad"], [class*="ad-"], [class*="Ad-"]';
 
   var element = document.querySelector(query);
 

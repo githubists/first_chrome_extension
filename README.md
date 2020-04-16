@@ -15,7 +15,7 @@ git clone https://github.com/githubists/first_chrome_extension.git
 
 ## Usage example
 1. Google Chromeを開いて検索バーに `chrome://extensions/` と入力。
-2. 「パッケージ化されていない拡張機能を読み込む」を選択。
+2. 右上のデベロッパーモードをONにして「パッケージ化されていない拡張機能を読み込む」を選択。
 3. `src` ディレクトリを選択。
 
 ## My Profile
